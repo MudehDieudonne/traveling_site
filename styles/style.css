@@ -302,7 +302,7 @@ footer {
   background: #16222A;
   background: linear-gradient(59deg, #06a3f2, #024898);
   color: white;
-  margin-top:100px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
 }
