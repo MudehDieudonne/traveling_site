@@ -10,7 +10,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px;
-  background-color: #f3f5f758;
   border-radius: 15px;
 }
 
@@ -53,7 +52,7 @@
 /* Banner Section */
 .hero {
   position: relative;
-  background-image: linear-gradient(#000000b6, #00000050), url("../image/beack\ cango.webp");
+  background-image: linear-gradient(#000000b6, #00000050), url("../image/airbalon.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -204,98 +203,6 @@ p {
   border-radius: 5px;
 }
 
-/* Pop Dest */
-.destination {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
-  background-color: #fff;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  max-width: 1200px;
-  width: 100%;
-}
-
-/* Image Section */
-.image-dest img {
-  width: 100%;
-  max-width: 300px;
-  border-radius: 8px;
-}
-
-/* Steps Container */
-.dest-container {
-  flex: 1;
-}
-
-.dest-container h2 {
-  font-size: 1.8rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
-  color: #333;
-}
-
-.dest-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.5rem;
-}
-
-/* Step Card */
-.dest-card {
-  background-color: #f8f9fa;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: left;
-  transition: transform 0.3s ease;
-}
-
-.dest-card img {
-  width: 100%;
-  height: 65%;
-  border-radius: 12px;
-  object-fit: cover;
-}
-
-.dest-card:hover {
-  transform: translateY(-5px);
-}
-
-.dest-card h3 {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-  padding: 0.3rem 0.5rem;
-}
-
-.dest-card p {
-  font-size: 0.9rem;
-  color: #666;
-  margin-bottom: 1rem;
-  padding: 0.3rem 0.5rem;
-}
-
-button {
-  background-color: #fff;
-  color: #407bff;
-  padding: 0.5rem 1rem;
-  border: 2px solid #407bff;
-  border-radius: 4px;
-  cursor: pointer;
-  font-weight: bold;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-button:hover {
-  background-color: #407bff;
-  color: #fff;
-}
-
 /* fooetr */
 footer {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -313,34 +220,44 @@ footer {
 
 .row{
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-evenly ;
   margin: 4%;
   padding-top: 2em;
 }
+
 footer a {
   color: #fff;
   font-size: 14px;
   transition-duration: 0.2s;
 }
-    
+
 footer a:hover {
-  color: #FA944B;
+  color: #4bc0fa;
+  background-color: #fff;
   text-decoration: none;
 }
-    
+
 .copy-right-sec {
   font-size: 12px;
   padding: 10px;
-  border-top: 1px solid #FFFFFF;  
+  border-top: 1px solid #fff; 
 }
-  
+
 li {
   list-style-type: none;
   padding: 2px;
-}  
+}
 
 /* Responsive Styles */
 @media (min-width: 768px) {
-  
+
+  /* Desktop view */
+  .card-grid {
+    gap: 1.5rem;
+  }
+  .card {
+      width: 200px;
+  }
 }
